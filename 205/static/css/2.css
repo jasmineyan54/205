@@ -1,0 +1,101 @@
+body { 
+  background: url("../Img/BG.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar {
+	background-color:rgb(255, 153, 204);
+}
+
+.color{
+	color:white;
+}
+.header { 
+	color: lightblue;
+	text-align: left;
+	font-style: italic;
+	text-align:center;
+}
+.column {
+	width: 88%;
+	padding: 15px;
+	margin:10px;
+}
+.footer {
+	position: fixed;
+	height:20px;
+	bottom: 0;
+	width: 98%;
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:5px;
+	background-color: rgb(255, 153, 204);
+	color: white;
+	text-align: center;
+}
+/*For the images of login, signup and log out*/
+#right1 {
+	width:80px;
+	height: 54px;
+	right:10px;
+	position:fixed;
+	margin:auto;
+	z-index: 99;
+}
+#right2 {
+	width:80px;
+	height: 54px;
+	right:100px;
+	position:fixed;
+	margin:auto;
+	z-index: 99;
+}
+/*MEnu Page*/
+.collapsible { 
+	background-color:rgb(255, 204, 212);
+	color:white;
+	width:95%;
+	text-align:left;
+	border:none;
+	font-size:16px;
+	margin:3px;
+}
+.collapsible:hover {
+	background-color:white;
+	color:rgb(255, 204, 212);
+}
+.content { 
+	padding:0 18px;
+	display:none;
+	overflow:hidden;
+	width:95%;
+}
+.describe {
+	float: left;
+	width: 290px;
+	line-height: 40px;
+	height:370px;
+	text-align: center;
+	margin: 5px;
+	background-color:white;
+}
+.img img{ 
+	width:99%;
+	object-fit: fill;
+	position:center;
+}
+
+.mySlides img {
+	vertical-align: middle; 
+}
+/* Slideshow container */
+.slideshow-container { 
+	max-width: 930px;  
+	max-height: 100%;
+	position: relative;
+	margin: auto;
+	margin-top:10px;
+}
+

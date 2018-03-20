@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Jasmine Lei</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+  <link rel= "stylesheet" href="{{ url_for('static', filename='css/2.css')}}" type="text/css" />
+ </head>
+<body>
+	<div class="header">
+		<h1>Mr. 205</h1>
+	</div>
+	<a href="login"><img src="{{ url_for('static',filename='Img/login.png')}}" id="right1" alt="login"></a>
+	<a href="signup"><img src="{{ url_for('static', filename='Img/signup.png')}}" id="right2" alt="signup"></a>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="Index" class="color">Home</a></li>
+				<li><a href="Menu" class="color">Menu</a></li>
+				<li><a href="AboutUs" class="color">About Us</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+
+
+<div class="slideshow-container">
+
+		<div class="mySlides ">
+  			<img src="{{ url_for('static', filename='Img/Index4.jpg')}}" alt="a" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<img src="{{ url_for('static', filename='Img/Index3.jpg')}}" alt="b" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<img src="{{ url_for('static', filename='Img/Index2.jpg')}}" alt="c" style="width:100%">
+		</div>
+
+	</div>
+
+	<div class="footer">
+  		Copyright &copy; 2018 &middot; All Rights Reserved &middot; Mr. 205
+	</div>
+
+	<script src="{{ url_for('static', filename='javascript/Index.js')}}"></script>
+</body>
+</html>

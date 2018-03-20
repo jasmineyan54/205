@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Jasmine Lei</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel= "stylesheet" href="{{ url_for('static', filename='css/2.css')}}" type="text/css" />
+</head>
+<body>
+	<div class="header">
+		<h1>Mr. 205</h1>
+	</div>
+	<a href="login"><img src="{{ url_for('static',filename='Img/login.png')}}" id="right1" alt="login"></a>
+	<a href="signup"><img src="{{ url_for('static', filename='Img/signup.png')}}" id="right2" alt="signup"></a>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<ul class="nav navbar-nav">
+				<li><a href="Index" class="color">Home</a></li>
+				<li><a href="Menu" class="color">Menu</a></li>
+				<li><a href="AboutUs" class="color">About Us</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="column">
+		<h2>Menu</h2>
+		<button type="button"class="collapsible" name="DS">Dim Sum</button>
+		<div id="demo" class="collapse content">
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static',filename='Img/Dim Sum/FengZhua.jpg')}}">
+					Chicken Feet in Black Bean & Chili Sauce<br>$17
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/JiZha.jpg')}}">
+				Tofu Sheet Rolls with Chicken<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/NiuBaiYe.jpg')}}">
+					Tripe w/Ginger<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/NiuRouWan.jpg')}}">
+					Beef Balls with Tofu Sheet<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/PaiGu.jpg')}}">
+					Diced Spareribs w/Black Beans<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/shrimpdumpling.jpg')}}">
+					Shrimp Dumpling<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/SiuMai.jpg')}}">
+					Siu Mai<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/XianZhuJuan.jpg')}}">
+					Tofu Sheet Rolls with Assorted Meat<br>$17
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/FenGuo.jpg')}}">
+					Chow Chow Dumpling<br>$17
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Dim Sum/NuoMiJi.jpg')}}">
+					Sticky Rice in Lotus Leaf<br>$22
+				</div>
+			</div>
+
+
+		</div>
+		<button type="button" class="collapsible" name="SR">Steamed Rice</button>
+		<div id="demo" class="collapse content">
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Rice/b.jpg')}}">
+					Steamed Rice with Minced Beef & Egg<br>$26
+				</div>
+			</div>
+
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Rice/d.jpg')}}">
+					Steamed Rice with Chicken & Mushroom<br>$26
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Rice/c.jpg')}}">
+					Steamed Rice with Minced Porks<br>$26
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Rice/a.jpg')}}">
+					Steamed Rice with Spareribs & Chicken Feet<br>$26
+				</div>
+			</div>
+
+
+		</div>
+
+		<button type="button" class="collapsible" name="C">Congee</button>
+		<div id="demo" class="collapse content">
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Congee/NiuRouZhou.jpg')}}">
+					Minced Beef Congee<br>$20
+				</div>
+			</div>
+
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Congee/PiDanZhou.jpg')}}">
+					Pork Porridge<br>$20
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Congee/TingZaiZhou.jpg')}}">
+					Tingzai porridge<br>$20
+				</div>
+			</div>
+
+
+		</div>
+
+		<button type="button" class="collapsible" name="SB">Steamed Buns</button>
+		<div id="demo" class="collapse content">
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/BBQBao.jpg')}}">
+					Roasted Pork Bun<br>$18
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/JiBao.jpg')}}">
+					Chicken & Mushroom Bun<br>$18
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/meatbun.jpg')}}">
+					Pork & Cabbage Bun<br>$17
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/NaiHuangBao.jpg')}}">
+					Creamy Custard Bun<br>$16
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/NuoMiJuan.jpg')}}">
+					Glutinous Rice Roll<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/MaLaGao.jpg')}}">
+					Steamed Sponge Cake<br>$10
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Steamed Buns/Mantou.jpg')}}">
+					Mantou <br>$13
+				</div>
+			</div>
+
+		</div>
+
+		<button type="button" class="collapsible" name="RN">Rice Noodle</button>
+		<div id="demo" class="collapse content">
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Rice Noodle/ChaShaoChang.jpg')}}">
+					Rice Noodle w/BBQ Roast Pork<br>$17
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Rice Noodle/JiSiFenJuan.jpg')}}">
+					Rice Noodle w/Shredded Chicken<br>$15
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Rice Noodle/NiuRouChang.jpg')}}">
+					Rice Noodle w/Beef<br>$15
+				</div>
+			</div>
+
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Rice Noodle/XiaChang.jpg')}}">
+					Rice Noodle w/Shrimp<br>$16
+				</div>
+			</div>
+			<div class="describe">
+				<div class="img">
+					<img src="{{ url_for('static', filename='Img/Rice Noodle/XiaMiChang.jpg')}}">
+					Rice Noodle w/Dried Shrimp<br>$15
+				</div>
+			</div>
+
+
+
+
+		</div>
+
+	</div>
+
+	<div class="footer">
+  		Copyright &copy; 2018 &middot; All Rights Reserved &middot; Mr. 205
+	</div>
+
+	<script src="{{ url_for('static', filename='javascript/Menu.js')}}"></script>
+
+
+</body>
+</html>

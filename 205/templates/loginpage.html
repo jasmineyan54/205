@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Jasmine Lei</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel= "stylesheet" href="{{ url_for('static', filename='css/2.css')}}" type="text/css" />
+</head>
+<body>
+	<div class="header">
+		<h1>Mr. 205</h1>
+	</div>
+	<a href="http://localhost:8000/Index"><img src="{{ url_for('static',filename='Img/logout.png')}}" id="right1" alt="error"></a>
+	<nav class="navbar">
+		<div class="container-fluid">
+			<h3>Hello {{name}}{{userid}}</h3>
+		</div>
+	</nav>
+
+
+
+<div class="column">
+  <h2>Here is your points: {{point}}</h2><br>
+  Event will be coming soon~
+
+
+</div>
+	<div class="footer">
+  		Copyright &copy; 2018 &middot; All Rights Reserved &middot; Mr. 205
+	</div>
+
+</body>
+</html>
